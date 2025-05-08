@@ -1,0 +1,33 @@
+.parent{
+  height: 500px;
+  width: 500px;
+  /* background-color: red; */
+  /* border bottom : 10px solid red; */
+  border: 10px solid red;
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  /* justify-items: center; */
+  justify-items: end ;
+  align-items: center;
+  row-gap: 50px;
+  column-gap: 100px;
+  
+}
+.child
+{
+  height: 100px;
+  width: 100px;
+}
+.parent>.child:first-child{
+  background-color: #10b8f0;
+ 
+}
+
+.parent>.child:nth-child(2){
+  background-color: lime;
+}
+.parent>.child:last-child{
+  background-color: yellow;
+}
+

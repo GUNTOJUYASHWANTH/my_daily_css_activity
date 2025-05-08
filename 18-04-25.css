@@ -1,0 +1,19 @@
+/* p[title|="hii"]{
+  background-color: black;
+  color: red;
+} */
+
+/* p[title^="hii"]{
+  background-color: black;
+  color: red;
+} */
+
+/* p[title$="hii"]{
+  background-color: black;
+  color: red;
+} */
+
+p[title*="e"]{
+  background-color: black;
+  color: red;
+}

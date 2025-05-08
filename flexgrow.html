@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .parent{
+      height: 500px;
+      background-color: red;
+      display: flex;
+      gap: 50px;
+      
+      /* align-content: center; */
+    }
+    .child{
+      height: 150px;
+      /* width: 150px; */
+      flex-basis: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      font-size: 34px;
+      flex-grow: 2;
+
+    }
+    .parent>.child:first-child{
+      
+      background-color: aqua;
+      /* flex-grow: 1; */
+      /* order: 2; */
+      align-self: flex-start;
+
+
+    }
+
+    .parent>.child:last-child{
+      
+      background-color: lime;
+      /* flex-grow: 1; */
+      align-self: flex-end;
+
+    }
+
+    .parent>.child:nth-child(2){
+      
+      background-color: hotpink;
+      /* flex-grow: 1; */
+      /* flex-shrink: 10; */
+      align-self: center;
+
+    }
+
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="child">1</div>
+    <div class="child">2</div>
+    <div class="child">3</div>
+  </div>
+</body>
+</html>

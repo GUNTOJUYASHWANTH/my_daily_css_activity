@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: red;
+}
+nav{
+  height: 80px;
+  background-color: #ffffff;
+}
+.logo{
+  width: 53px;
+
+  height: 80px;
+  margin: 0px 0px 0px 61px;
+  background-image: url("https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png");
+  background-size: 140px 105px;
+  background-position: 462px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

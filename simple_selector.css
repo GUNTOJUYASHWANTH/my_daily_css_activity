@@ -1,0 +1,14 @@
+.b{
+  color: yellow;
+}
+h1{
+  color: palevioletred;
+  background-color: black;
+}
+h1{
+  color: red;
+}
+p,span{
+  color: beige;
+  background-color: pink;
+}

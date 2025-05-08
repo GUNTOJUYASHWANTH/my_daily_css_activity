@@ -1,0 +1,16 @@
+div{
+  background-color: aqua;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  
+  
+}
+body>div:first-child{
+  z-index: 1;
+}
+body>div:nth-child(2){
+  background-color: red;
+  left: 50px;
+  z-index: 0;
+}

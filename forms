@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="es" dir="auto">
+<meta charset="UTF-8">
+<title>document</title>
+<body>
+  <form action="">
+    <label for="got"> user_name:</label>
+    <input type="text" id="got">
+  </form>
+</body>
+</html>

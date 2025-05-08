@@ -1,0 +1,18 @@
+button:hover::after{
+  content:"😘";
+
+}
+button:active::after{
+  content: "😍";
+}
+p::selection{
+  background-color: black;
+  color: yellow;
+}
+li::marker{
+  content: "💖";
+}
+
+input::placeholder{
+  color: aqua;
+}

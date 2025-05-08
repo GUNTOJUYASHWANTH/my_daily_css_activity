@@ -1,0 +1,18 @@
+/* div
+{
+  height: 1150px;
+  width: 1150px;
+  background-image: linear-gradient( to left,red,pink,green,aqua,goldenrod);
+
+}
+h1
+{
+  height: 550px;
+  width: 550px;
+  background-image: linear-gradient(to left,green,blue,yellow);
+} */
+
+div
+{
+  background-image: radial-gradient(red,yellow);
+}

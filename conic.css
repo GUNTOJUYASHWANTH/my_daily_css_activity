@@ -1,0 +1,14 @@
+div{
+  height: 250px;
+  width: 250px;
+  background-image:conic-gradient(from 0deg,red 0deg 120deg,green 120deg 240deg,blue 240deg 360deg);
+  padding: 20px;
+
+}
+h1{
+  height: 200px;
+  width: 200px;
+  background-image:conic-gradient(from 0deg,red 0deg 120deg,green 120deg 240deg,blue 240deg 360deg);
+  border-radius: 50%;
+  
+}
